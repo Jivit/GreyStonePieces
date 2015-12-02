@@ -125,35 +125,11 @@ angular.module('ngCart', ['ngCart.directives'])
 
         this.calculateShipping = function(){
 
-            var shipping = 0.0;
-            var fur = false;
-            var blondeFur = "Beige Faux Fur Stole";
-            var blackFur = "Black Faux Fur Stole";
-
-            angular.forEach(this.getCart().items, function (item) {
-                console.log("Items in the cart: " + item._name);
-                if(item._name === blondeFur){
-                    shipping += 4.0;
-                    fur = true;
-                }
-
-                if(item._name === blackFur){
-                    shipping += 4.0;
-                    fur = true;
-                }
-
-                shipping += 2.0;
-            });
-
-            if(fur && shipping > 8.0){
-                shipping = 8.0;
+            if(this.getCart().items.length === 0){
+                return 0.0;
+            }else{
+                return 3.0;
             }
-
-            if (!fur && shipping > 2.0) {
-                shipping = 2.0;
-            };
-            
-            return shipping;
         };
 
         this.totalCost = function () {
