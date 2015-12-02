@@ -275,6 +275,11 @@ fieldset[disabled] .btn-xl.active {
         transition: padding .3s;
     }
 
+        .navbar-default .navbar-brand{
+        font-family: greystone;
+        font-size: 90px;
+    }
+
     .navbar-default .navbar-brand {
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
@@ -295,13 +300,29 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
-@media(min-width: 481px){
-  /* For portrait layouts only for smartphones*/
-
-    .text-right {
-    text-align: inherit;
-    }
+@media only screen and (max-width: 481px) {
     
+    .cartStyle{
+    padding: 0px 0 0 0; 
+    width: 5px;
+    }
+
+    .intro-text .intro-heading {
+
+    font-family: greystone;
+    font-size: 100px !important;
+    }
+
+
+    .intro-heading{
+        font-size: 100px;
+    }
+
+    .navbar-default .navbar-brand{
+        font-family: greystone;
+        font-size: 70px;
+    }
+
     .navbar-default {
         padding: 25px 0;
         border: 0;
@@ -315,7 +336,6 @@ fieldset[disabled] .btn-xl.active {
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
-        font-size: 80px;
     }
 
     .navbar-default .navbar-nav>.active>a {
@@ -330,13 +350,12 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 5.0em;
     }
-
-    .header .intro-text .intro-heading{
-        font-family: greystone;
-        font-size: 90px;
-    }
-
 }
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  /* For landscape layouts only */
+}
+
 
 
 header {
