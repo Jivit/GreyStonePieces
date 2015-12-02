@@ -1,0 +1,37 @@
+<% include ../partials/top.ejs %>
+
+        <!-- Shop Section -->
+        <div ng-controller="StoreController as store">
+            <section id="shop">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h2 class="section-heading">Shop</h2>
+                        </div>
+                    </div>
+                    
+            <div class="row">
+                    <div class="col-lg-12">
+                        <h3 class="page-header">Latest Products</h3>
+                    </div>
+
+                <!-- Products -->
+                <div class="row text-center">
+                    <div ng-repeat="product in store.products" class="col-md-3 col-sm-6 hero-feature ">
+                        <div id="target thumbnail">
+                            <img class="img-responsive imageSize pointer" src="https://placehold.it/800x500" alt="">
+                            <div class="caption">
+                                <h3>{{product.price}}</h3>
+                                <h2>{{product.name}}</h2>
+                                <p>{{product.description}}</p>
+                                <p>
+                                    <a ng-click="store.addToCart(product.id)" class="btn btn-cart">Add to Cart</a> <a href="#" class="btn btn-default">More Info</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+            </section>
+    </div>
+    <% include ../partials/bottom.ejs %>

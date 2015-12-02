@@ -1,0 +1,69 @@
+[{
+        "age": 0,
+        "id": "beccatortoise",
+        "imageUrl": "img/products/beccatortoise.jpg",
+        "name": "Becca Tortoise Print Cateye Sunglasses",
+        "snippet": "Timeless and stunning, our Becca tortoise print cateye sunglasses will never go out of style!"
+    }, {
+        "age": 1,
+        "id": "vicesunglassesnavey",
+        "imageUrl": "img/products/vicesunglassesnavey.jpg",
+        "name": "Vice Gold Framed Black Mirrored Sunglasses",
+        "snippet": "Stand out from the crowd in our Vice sunglasses! Available in black and rose gold mirrored lenses with a gold frame, you're sure to turn heads!"
+    }, {
+        "age": 2,
+        "id": "vicesunglassesgold",
+        "imageUrl": "img/products/vicesunglassesgold.jpg",
+        "name": "Vice Gold Framed Rose Gold Mirrored Sunglasses",
+        "snippet": "Stand out from the crowd in our Vice sunglasses! Available in rose gold and black mirrored lenses with a gold frame, you're sure to turn heads!"
+    }, {
+        "age": 3,
+        "id": "bohoringscup",
+        "imageUrl": "img/products/bohoringscup.jpg",
+        "name": "Brushed Silver Boho Stacking Rings",
+        "snippet": "Beautiful boho style brushed silver midi and finger rings with a unique blue marbled stone in a variety of styles! Perfect for layering and stacking."
+    }, {
+        "age": 4,
+        "id": "lariatdroppendantnecklace1",
+        "imageUrl": "img/products/lariatdroppendantnecklace1.jpg",
+        "name": "Gold Lariat Drop Pendant Necklace",
+        "snippet": "Simple and stunning, the gold lariat drop pendant is the perfect way to add a touch of elegance to any outfit!"
+    }, {
+        "age": 5,
+        "id": "dell-venue",
+        "imageUrl": "img/phones/dell-venue.0.jpg",
+        "name": "Double Leaf Drop Necklace",
+        "snippet": "The gold double leaf drop necklace is understatedly different, and the perfect way to add a touch of interest to a simple outfit!"
+    }, {
+        "age": 6,
+        "id": "golddoubleleaf",
+        "imageUrl": "img/products/golddoubleleaf.jpg",
+        "name": "Gold Hamsa Necklace",
+        "snippet": "The Hamsa is the middle eastern sign for peace and protection. Ours is a simple, delicate gold piece."
+    }, {
+        "age": 7,
+        "id": "bodychain2",
+        "imageUrl": "img/products/bodychain2.jpg",
+        "name": "Gold Body Chain",
+        "snippet": "Body chains are an understatedly sexy way to add interest to any outfit (or even your bikini! This piece is available in gold and has added interest with the gold spheres."
+    }, {
+        "age": 8,
+        "id": "furblack3",
+        "imageUrl": "img/products/furblack3.jpg",
+        "name": "Black Faux Fur Stole",
+        "snippet": "A little bit of faux fur brings class to any outfit! Our stoles are available in black and beige and are perfect for winter!"
+    }, {
+        "age": 9,
+        "id": "furblonde.JPG",
+        "imageUrl": "img/products/furblonde.JPG",
+        "name": "Beige Faux Fur Stole",
+        "snippet": "A little bit of faux fur brings class to any outfit! Our stoles are available in beige and black and are perfect for winter!"
+    }, {
+        "age": 10,
+        "id": "wishbonenecklasce",
+        "imageUrl": "img/products/wishbonenecklasce.JPG",
+        "name": "Gold Wishbone Necklace"
+        "snippet": "Wish without limits and make it count! Our wishbone necklace is available in gold and is delicate and simple."
+    }
+
+]

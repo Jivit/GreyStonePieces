@@ -326,7 +326,6 @@ header .intro-text .intro-lead-in {
     src: url(../fonts/Dragon.otf);
 }
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
     margin-top: 50px;
     font-family: greystone;
     font-size: 200px;
@@ -343,7 +342,6 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
         font-family: greystone;
 }
 

@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" ng-app="greystonePiecesShop">
 <head>
 
-    <meta charset="utf-8">
+<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Necklace and bracelets Ireland. Thin gold bracelet. Thin silver bracelet. Thin gold necklace. Thin silver bracelet">
@@ -12,29 +11,24 @@
 
     <title>Greystone Pieces- It's what you wear</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
+    <!-- build:css css/style.css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/ngcart.css"/> 
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    
+
 </head>
 
-<body id="page-top" class="index">
+<body>
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -46,6 +40,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">Greystone Pieces</a>
             </div>
@@ -54,10 +49,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
-                        <a href="#page-top"></a>
+                        <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#shop">Shop</a>
+                        <a class="page-scroll" ui-sref="site.shop">Shop</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">About</a>
@@ -65,24 +60,30 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
-                     <li>
-                        <a class="page-scroll" href="#cart">Cart</a>
-                    </li>
+                    <li>
+                    <a class="page-scroll" href="#shop" ui-sref="site.cart" style="padding: 5px 0 0 0; width:150px">
+                        <ngcart-summary></ngcart-summary>
+                    </a>
+                </li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
+            <!-- /.navbar-collapse   ui-sref="site.cart" -->
         </div>
         <!-- /.container-fluid -->
     </nav>
 
+
+<header id="page-top">
     <!-- Header -->
-    <header>
+    
         <div class="container">
             <div class="intro-text">
                 <div class="intro-heading">Greystone Pieces</div>
+                <i class="fa fa-diamond fa-5x"></i>
                 <div class="spacer"></div>
-                <a href="#shop" class="page-scroll btn btn-xl">Tell Me More</a>
+                <a href="#shop" class="page-scroll btn btn-xl">Shop Now</a>
                 <div class="spacer"></div>
             </div>
         </div>
-    </header>
+    
+</header>

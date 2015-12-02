@@ -1,0 +1,20 @@
+       <h1>Shop </h1>
+
+    <div class="row">
+
+        <div class="col-xs-4" ng-repeat="item in products">
+            <div class="thumbnail">
+                <img style="height: 250px;" ng-src="{{ item.imageUrl }}"></img><br>                
+                <h4>{{ item.name }}</h4>
+                <p>{{ item.snippet }}</p>
+                <h5 class="price">{{ item.price | currency:"&euro;"}}</h5>
+                <ngcart-addtocart id="{{ item.id }}"
+                           name="{{ item.name }}"
+                           price="{{ item.price }}"
+                           data="item"
+                           quantity="1"
+                           quantity-max="30">
+                    Add To Cart
+                </ngcart-addtocart></div>
+        </div>
+    </div>

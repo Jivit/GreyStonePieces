@@ -4,10 +4,9 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">Providing you the goods</h3>
+                    <h3 class="section-subheading text-muted">Dublin based online boutique selling a selection of unique, on-trend pieces sourced from all over the world! </h3>
                 </div>
             </div>
-            <h2>We are new born....</h2>
         </div>
     </section>
 
@@ -54,72 +53,12 @@
             </div>
         </div>
     </section>
-    
-      <!-- Modal -->
-  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-          <h4 class="modal-title">Product Description</h4>
-        </div>
 
-  <div class="modal-body">
-          <! -- Slideshow -->
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img src="https://placehold.it/800x500" alt="Chania">
-      </div>
-
-      <div class="item">
-        <img src="https://placehold.it/800x500" alt="Chania">
-      </div>
-    
-      <div class="item">
-        <img src="https://placehold.it/800x500" alt="Flower">
-      </div>
-
-      <div class="item">
-        <img src="https://placehold.it/800x500" alt="Flower">
-      </div>
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-    <! -- End Slideshow -->
-  </div>
-        <p>One fine body&hellip;</p>
-    </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Add to cart</button>            
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
-
-    <footer>
+<footer>
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Sean Feeney 2015</span>
+                    <span class="copyright">Copyright &copy; Sean Feeney 2016</span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
@@ -143,8 +82,18 @@
         </div>
     </footer>
 
+<!-- build:js js/app.js -->
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-resource/angular-resource.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
 
-    <!-- jQuery -->
+<script src="js/ngCart.js"></script>
+<script src="bower_components/ngcart/src/ngCart.directives.js"></script>
+<script src="bower_components/ngcart/src/ngCart.fulfilment.js"></script>
+
+<script src="js/app.js"></script>
+
+<!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
@@ -161,22 +110,9 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
-    
-    <script>
-    $("#target" ).click(function() {
-     $('#myModal').modal('show');
-        });
-        
-        $("#target" ).mouseenter(function() {
-            $("#target" ).addClass("borderItem");
-        });
-    
-        $("#target" ).mouseleave(function() {
-            $("#target" ).removeClass("borderItem");
-        });
-        
+
+    <script type="text/javascript">
+
     </script>
-
 </body>
-
 </html>
