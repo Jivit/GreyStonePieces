@@ -198,6 +198,11 @@ fieldset[disabled] .btn-xl.active {
     border-color: #FF00FF;
 }
 
+.cartStyle{
+    padding: 5px 0 0 0; 
+    width:150px;
+}
+
 .navbar-default {
     border-color: transparent;
     background-color: #222;
@@ -289,6 +294,50 @@ fieldset[disabled] .btn-xl.active {
         font-size: 5.0em;
     }
 }
+
+@media(min-width: 481px){
+  /* For portrait layouts only for smartphones*/
+
+    .text-right {
+    text-align: inherit;
+    }
+    
+    .navbar-default {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+        font-size: 80px;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: #222;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 5.0em;
+    }
+
+    .header .intro-text .intro-heading{
+        font-family: greystone;
+        font-size: 90px;
+    }
+
+}
+
 
 header {
     text-align: center;
