@@ -61,7 +61,7 @@
         "imageUrl": "img/products/bodychain2.JPG",
         "name": "Gold Body Chain",
         "snippet": "Body chains are an understatedly sexy way to add interest to any outfit (or even your bikini! This piece is available in gold and has added interest with the gold spheres.",
-        "price" : "15",
+        "price" : "12",
         "shipping" : "2"
     }, {
         "age": 8,
@@ -87,7 +87,7 @@
         "imageUrl": "img/products/wishbonenecklasce.JPG",
         "name": "Gold Wishbone Necklace",
         "snippet": "Wish without limits and make it count! Our wishbone necklace is available in gold and is delicate and simple.",
-        "price" : "15",
-        "shipping" : "4"
+        "price" : "8",
+        "shipping" : "2"
     }      
 ]
