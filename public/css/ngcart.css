@@ -31,10 +31,16 @@ table tfoot td{
     padding: 40px 15px;
 }
 
-.thumbnail{
+.thumbnailWrapper{
+    width: 294px;
+    height: 480px;
+    overflow: hidden;
+    float: left;
 }
+
 .thumbnail img{
-     width: 60%;
+    max-width: 100%;
+    height: auto;
 }
 .thumbnail .price{
     color:#3a1
