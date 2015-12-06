@@ -29,7 +29,7 @@
         "imageUrl": "img/products/bohoringscup.JPG",
         "name": "Brushed Silver Boho Stacking Rings",
         "snippet": "Beautiful boho style brushed silver midi and finger rings with a unique blue marbled stone in a variety of styles! Perfect for layering and stacking.",
-        "price" : "12",
+        "price" : "3",
         "shipping" : "2"
     },{
         "age": 4,
@@ -45,7 +45,7 @@
         "imageUrl": "img/products/golddoubleleaf.JPG",
         "name": "Double Leaf Drop Necklace",
         "snippet": "The gold double leaf drop necklace is understatedly different, and the perfect way to add a touch of interest to a simple outfit!",
-        "price" : "8",
+        "price" : "10",
         "shipping" : "2"
     }, {
         "age": 6,
@@ -61,7 +61,7 @@
         "imageUrl": "img/products/bodychain2.JPG",
         "name": "Gold Body Chain",
         "snippet": "Body chains are an understatedly sexy way to add interest to any outfit (or even your bikini! This piece is available in gold and has added interest with the gold spheres.",
-        "price" : "12",
+        "price" : "10",
         "shipping" : "2"
     }, {
         "age": 8,
@@ -69,7 +69,7 @@
         "imageUrl": "img/products/furblack3.JPG",
         "name": "Black Faux Fur Stole",
         "snippet": "A little bit of faux fur brings class to any outfit! Our stoles are available in black and beige and are perfect for winter!",
-        "price" : "15",
+        "price" : "12",
         "shipping" : "4"
     },
     {
@@ -78,7 +78,7 @@
         "imageUrl": "img/products/furblonde.JPG",
         "name": "Beige Faux Fur Stole",
         "snippet": "A little bit of faux fur brings class to any outfit! Our stoles are available in beige and black and are perfect for winter!",
-        "price" : "15",
+        "price" : "12",
         "shipping" : "4"
     },
     {
