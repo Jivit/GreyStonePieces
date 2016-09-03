@@ -32,7 +32,7 @@ angular.module('greystonePiecesShop', ['ngResource', 'ui.router', 'ngCart'])
         })
 
       .state('site.cart', {
-            url: "cart",
+            url: "",
             controller:"cart",
             templateUrl: 'partials/cart.html'
         })
@@ -55,18 +55,6 @@ angular.module('greystonePiecesShop', ['ngResource', 'ui.router', 'ngCart'])
 
         console.log("just entered the cart controller");
 
-
-         $('html, body').animate({
-                scrollTop: $("#shop").offset().top
-                 }, 1000);
-
-        $scope.setShippingCosts = function(){
-
-             console.log(ngCart.getItems().length);
-
-             
-        };
-       
         var orderDescription = "";
         angular.forEach(ngCart.getItems(), function (item) {
 
@@ -91,6 +79,11 @@ angular.module('greystonePiecesShop', ['ngResource', 'ui.router', 'ngCart'])
 
     }
 
+         $('html, body').animate({
+                scrollTop: $("#mainDiv").offset().top
+                 }, 1000);
+
+
 }])
 
 .controller('shop',[ '$http','ngCart', '$scope', function ($http, ngCart, $scope) {
@@ -106,7 +99,7 @@ angular.module('greystonePiecesShop', ['ngResource', 'ui.router', 'ngCart'])
 
                 console.log("just entered the shop controller");
          $('html, body').animate({
-                scrollTop: $("#shop").offset().top
+                scrollTop: $("#mainDiv").offset().top
                  }, 1000);
 
 }])
