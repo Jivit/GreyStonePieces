@@ -1,8 +1,8 @@
 {
-  "name": "Node.js Getting Started",
-  "description": "A barebones Node.js app using Express 4",
-  "repository": "https://github.com/heroku/node-js-getting-started",
-  "logo": "http://node-js-sample.herokuapp.com/node.svg",
-  "keywords": ["node", "express", "static"],
-  "image": "heroku/nodejs"
+  "name": "Greystone Pieces Node.js ecommerce app",
+  "description": "Online shop",
+  "repository": "git@github.com:SeanFeeneyDev/GreyStonePieces.git",
+  "logo": "",
+  "keywords": ["node", "express", "static", "ecommerce"],
+  "image": ""
 }
