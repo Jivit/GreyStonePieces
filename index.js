@@ -31,7 +31,7 @@ app.post('/sendmail', function(req, res) {
 	    service: 'Gmail',
 	    auth: {
 	        user: 'greystonepieces@gmail.com',
-	        pass: '$aleen$7'
+	        pass: '------'
 	    }
 	});
 	// NB! No need to recreate the transporter object. You can use

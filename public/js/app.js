@@ -40,7 +40,7 @@ angular.module('greystonePiecesShop', ['ngResource', 'ui.router', 'ngCart'])
 }])
     .controller('main',[ '$http','ngCart', '$scope', function ($http, ngCart, $scope) {
 
-    $http({method: 'GET', url: 'data/phones.json'})
+    $http({method: 'GET', url: 'data/items.json'})
         .success(function(data, status, headers, config) {
             $scope.products = data;
         })
